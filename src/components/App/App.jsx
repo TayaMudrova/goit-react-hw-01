@@ -1,7 +1,17 @@
-// const App = () => {
-//   return <p>Hello</p>;
-// };
+import userData from "../../userData.json";
+
+import Profile from "../Profile/Profile";
 
 export default function App() {
-  return <p>Hello</p>;
+  return (
+    <>
+      <Profile
+        name={userData.username}
+        tag={userData.tag}
+        location={userData.location}
+        image={userData.avatar}
+        stats={userData.stats}
+      />
+    </>
+  );
 }
