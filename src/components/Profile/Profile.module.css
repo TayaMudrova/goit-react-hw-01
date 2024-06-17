@@ -15,7 +15,7 @@
   margin-top: 30px;
 }
 
-.img {
+.image {
   width: 150px;
   height: auto;
   background-color: black;
@@ -27,19 +27,25 @@
   font-size: 30px;
   font-weight: 800px;
   margin-bottom: 15px;
+  margin-top: 0;
 }
 
 .tag {
+  font-size: 20px;
   margin-bottom: 8px;
+  margin-top: 0;
   color: dimgray;
 }
 
 .location {
+  font-size: 20px;
   margin-bottom: 8px;
+  margin-top: 0;
   color: dimgray;
 }
 
 .stats {
+  font-size: 20px;
   margin-top: 10px;
   margin-bottom: 0;
   display: flex;
